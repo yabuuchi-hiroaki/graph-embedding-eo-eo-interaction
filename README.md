@@ -15,7 +15,7 @@ The code presented here was implemented and tested in Anaconda ver.22.11.1 (Pyth
 1. Download this repository.
 2. Uncompress "data.zip" file to create "data" folder.
     - "data/pair_Sa" : synergistic/antagonistic/additive pairs of essential oils (= Table S1 of the preprint)
-    - "data/pair_content_Sa" : chemical composition of the essential oils
+    - "data/pair_content_Sa" : chemical composition of the essential oils (corresoponding to Table S2 of the preprint)
 3. Run a Python script "GraphEmbedEO_3classCV.py"
     - The script performs 10-fold cross-validation and calculates AUCs for synergistic-versus-rest and antagonistic-versus-rest classification.
 
