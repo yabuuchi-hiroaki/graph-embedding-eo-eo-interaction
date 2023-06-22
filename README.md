@@ -18,6 +18,8 @@ The code presented here was implemented and tested in Anaconda ver.22.11.1 (Pyth
     - "data/pair_content_Sa" : chemical composition of the essential oils (corresoponding to Table S2 of the preprint)
 3. Run a Python script "GraphEmbedEO_3classCV.py"
     - The script performs 10-fold cross-validation and calculates AUCs for synergistic-versus-rest and antagonistic-versus-rest classification.
+4. Run a Python script "GraphEmbedEO_pred3class.py"
+    - The script calculates output probability for given EO-EO pairs (described in "data/pred/pair" file) as an output file "output_prob.txt".
 
 ## References
 [^1]: Yabuuchi H et al. Prediction of antibacterial interaction between essential oils via graph embedding approach. ChemRxiv (posted on June 20, 2023) doi: [10.26434/chemrxiv-2023-6j4nx](https://doi.org/10.26434/chemrxiv-2023-6j4nx).
